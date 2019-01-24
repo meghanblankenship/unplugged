@@ -97,6 +97,79 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*---------- Base header and footer styles ----------*/
+header, footer {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  display: flex;
+}
+
+footer .social-icons {
+  display: flex;
+}
+
+footer .social {
+  display: flex;
+}
+
+/*---------- Main section styles ----------*/
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.features {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.reviews {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.mission {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.contact-section {
+  display: flex;
+  flex-flow: row wrap;
+}
 
 
 
