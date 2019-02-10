@@ -284,6 +284,17 @@ input[type=button] {
   color: #e2e3ed;
 }
 
+/*---------- About page ----------*/
+.mission {
+  background-color: #527158;
+  color: #e2e3ed;
+}
+
+.contact-section {
+  background-color: #2a423a;
+  color: #e2e3ed;
+}
+
 /*---------- Mobile styles - homepage ----------*/
 .hero-area {
   display: flex;
@@ -339,7 +350,6 @@ aside {
   margin: 20px 0;
 }
 
-
 /*---------- About page ----------*/
 .mission {
   display: flex;
@@ -365,6 +375,8 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
+  color: #e2e3ed;
 }
 
 .faq .content-wrapper {
