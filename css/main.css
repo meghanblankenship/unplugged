@@ -521,7 +521,7 @@ h3 {
     line-height: 1.25;
 }
 
-      /* Header */
+/*---------- Header ----------*/
 
 header {
   display: flex;
@@ -670,6 +670,10 @@ footer p {
   width: 39%;
 }
 
+.map figure {
+  padding-bottom: 58.5%;
+}
+
 .contact-section .content-wrapper h2 {
   width: 81%;
 }
@@ -744,6 +748,10 @@ aside .content-wrapper .form {
 .contact-section .content-wrapper h2 {
     width: 100%;
     font-size: 3em;
+}
+
+.map figure {
+  padding-bottom: 32.5%;
 }
 
 .contact-section .content-wrapper h2 {
