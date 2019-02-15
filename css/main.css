@@ -756,10 +756,17 @@ p {
     line-height: 1.333;
 }
 
+/*---------- Header ----------*/
+header nav {
+  width: 17%;
+}
+
 /*---------- Hero ----------*/
 .hero-area h1 {
     font-size: 3.75em;
-    width: 60%;
+    width: 55%;
+    margin-top: 42px;
+    line-height: 1;
 }
 
 /*---------- Aside ----------*/
@@ -778,7 +785,7 @@ aside .content-wrapper .form {
 
 /*---------- Features ----------*/
 .features h2 {
-    width: 70%;
+    width: 90%;
 }
 
 .features article {
@@ -793,7 +800,7 @@ aside .content-wrapper .form {
 /*---------- About Page ----------*/
 .mission h2,
 .contact-section .content-wrapper h2 {
-    width: 100%;
+    width: 90%;
     font-size: 3em;
 }
 
@@ -803,10 +810,12 @@ aside .content-wrapper .form {
 
 .contact-section .content-wrapper h2 {
     margin-bottom: 40px;
+    width: 95%;
 }
 
 .contact-content h4 {
   font-size: 1.875em;
+  text-align: left;
 }
 
 
@@ -817,7 +826,7 @@ aside .content-wrapper .form {
 }
 
 .faq-content {
-    flex-basis: 35%;
+    flex-basis: 45%;
 }
 
 .faq h4,
