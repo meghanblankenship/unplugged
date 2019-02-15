@@ -204,6 +204,8 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 header nav ul li {
@@ -247,6 +249,7 @@ footer .social-icons p {
   border-radius: 50%;
   width: 40px;
   height: 40px;
+  font-size: 1.125em;
 }
 
 .footer .social {
@@ -271,7 +274,10 @@ footer .copyright {
 }
 
 .hero-area h1 {
-  font-size: 2.25em;
+  font-size: 2.75em;
+  font-weight: 400;
+  margin-left: 20px;
+  line-height: 1;
 }
 
 /*---------- Download itinerary button & input section of homepage ----------*/
@@ -393,6 +399,10 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.contact-section h2 {
+  font-size: 2.25em;
 }
 
 .contact-content p {
@@ -678,6 +688,11 @@ footer .social-icons {
     line-height: 1.125;
 }
 
+footer .social-icons {
+  width: 12.5em;
+  justify-content: space-between;
+}
+
 /*---------- About Page ----------*/
 .mission-content {
   display: flex;
@@ -706,6 +721,12 @@ footer .social-icons {
 .contact-content h4 {
   font-size: 1.5em;
 }
+
+footer .social-icons {
+  width: 12.5em;
+  justify-content: space-between;
+}
+
 }
 
 @media only screen and (min-width: 1200px) {
